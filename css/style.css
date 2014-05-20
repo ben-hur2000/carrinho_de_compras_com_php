@@ -1,0 +1,63 @@
+body {
+	font-family:verdana;
+	margin:0;
+}
+header {
+	width:680px;
+	color:#024f9d;
+	margin:auto;
+	font-size:10px;
+}
+table {
+	margin:auto;
+	background:#ece9e9;
+	background-image:-webkit-linear-gradient(#f8f6f6,#f1efef);
+	background-image:-moz-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-o-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-ms-linear-gradient(#f8f6f6,#ece9e9);
+	text-align:center;
+	width:680px;
+}
+table td {
+	padding:10px;
+	border-bottom:1px solid white;
+	margin-top:5px!important;
+}
+.table-topo {
+	font-weight:bold;
+	background:#014e9c;
+	background-image:-webkit-linear-gradient(#3586da,#014e9c);
+	background-image:-moz-linear-gradient(#3586da,#014e9c);
+	background-image:-o-linear-gradient(#3586da,#014e9c);
+	background-image:-ms-linear-gradient(#3586da,#014e9c);
+	color:white;
+}
+.total {
+	background:white;
+}
+input {
+	padding:10px;
+}
+table input {
+	width:30px;
+	text-align:center;
+}
+table a {
+    color:#1968b9;
+}
+.deletar {
+	color:red;
+}
+.text-total {
+	color:#1968b9;
+	font-size:20px;
+}
+table button {
+	padding:5px;
+	border:1px solid silver;
+	cursor:pointer;
+	background-image:-webkit-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-moz-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-o-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-ms-linear-gradient(#f8f6f6,#ece9e9);
+}
