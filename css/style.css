@@ -2,6 +2,12 @@ body {
 	font-family:verdana;
 	margin:0;
 }
+a {
+	color:#1968b9;
+}
+a:hover {
+	opacity:0.80;
+}
 header {
 	width:680px;
 	color:#024f9d;
@@ -60,4 +66,25 @@ table button {
 	background-image:-moz-linear-gradient(#f8f6f6,#ece9e9);
 	background-image:-o-linear-gradient(#f8f6f6,#ece9e9);
 	background-image:-ms-linear-gradient(#f8f6f6,#ece9e9);
+}
+span {
+	color:gray;
+}
+
+#produtos {
+	width:680px;
+	padding:10px;
+	border-bottom:1px dotted silver;
+	margin:auto;
+
+	background:#ece9e9;
+	background-image:-webkit-linear-gradient(#fcfbfb,white);
+	background-image:-moz-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-o-linear-gradient(#f8f6f6,#ece9e9);
+	background-image:-ms-linear-gradient(#f8f6f6,#ece9e9);
+}
+.preco {
+	color:red;
+	display:block;
+	margin-bottom:2px;
 }

@@ -123,7 +123,7 @@ AlteraQuantidade();
 
           	    echo '<tr>
 			                  <td>'.utf8_encode($nome).'</td>
-			                  <td><input type="text" name="produto['.$id.']" value="'.$quantidade.'"/></td>
+			                  <td><input type="text" name="produto['.$id.']" value="'.$quantidade.'"/> <span> kg </span></td>
 			                  <td> R$: '.$preco.'</td>
 			                  <td> R$: '.$subTotal.'</td>
 			                  <td><a class="deletar" href="?acao=del&id='.$id.'">Remover</a></td>
@@ -146,8 +146,8 @@ AlteraQuantidade();
 
 
    <tr>
+      <td> <a href="index.php">Continuar comprando</a> </td>
       <td> <button type="submit">Atualizar Carrinho</button> </td>
-	    <td> <a href="index.php">Continuar comprando</a> </td>
    </tr>
 
 	</form>
